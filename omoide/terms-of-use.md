@@ -56,4 +56,4 @@ title: Omoide 利用規約
 
 本規約に関するお問い合わせ先:
 
-- 連絡先: （サポート連絡先メールアドレスまたはフォームURLを記載）
+- お問い合わせフォーム: [こちらからご連絡ください](https://docs.google.com/forms/d/e/1FAIpQLScT4fYb2UhmXt7WD2F0MK_YHx2v6rhw72zOe-sh5ZiyOYHZNg/viewform)

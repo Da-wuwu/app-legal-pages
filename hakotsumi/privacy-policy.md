@@ -50,4 +50,4 @@ Appleが取り扱う情報については、[Appleのプライバシーポリシ
 
 プライバシーに関するお問い合わせ先:
 
-- 連絡先: （サポート連絡先メールアドレスまたはフォームURLを記載）
+- お問い合わせフォーム: [こちらからご連絡ください](https://docs.google.com/forms/d/e/1FAIpQLScIDBBxpsHAXkALrgm76yFj0Q6GdJ2SYcjl3Kde9zQnyAzfcA/viewform)
