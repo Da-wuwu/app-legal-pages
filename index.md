@@ -14,3 +14,8 @@ title: Legal Documents
 
 - [プライバシーポリシー](hakotsumi/privacy-policy)
 - [利用規約](hakotsumi/terms-of-use)
+
+## ハコツミCPU (HakotsumiCPU)
+
+- [プライバシーポリシー](hakotsumi-cpu/privacy-policy)
+- [利用規約](hakotsumi-cpu/terms-of-use)

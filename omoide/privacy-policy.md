@@ -1,7 +1,11 @@
 ---
 layout: page
-title: Omoide プライバシーポリシー
+title: Omoide プライバシーポリシー / Omoide Privacy Policy
 ---
+
+{% include lang-toggle.html %}
+
+<div class="lang-ja" markdown="1">
 
 最終更新日: 2026-03-21
 
@@ -54,3 +58,61 @@ Appleが取り扱う情報については、[Appleのプライバシーポリシ
 プライバシーに関するお問い合わせ先:
 
 - お問い合わせフォーム: [こちらからご連絡ください](https://docs.google.com/forms/d/e/1FAIpQLScT4fYb2UhmXt7WD2F0MK_YHx2v6rhw72zOe-sh5ZiyOYHZNg/viewform)
+
+</div>
+
+<div class="lang-en" markdown="1">
+
+Last updated: March 21, 2026
+
+Omoide (hereinafter "the App") respects user privacy and is committed to protecting personal information. This policy explains how information is handled in the App.
+
+## 1. Information Handled
+
+The App handles the following information locally on the device:
+
+- Photo data selected by the user (game card images, including optional save functionality)
+- Player names entered by the user
+- Game history (scores, match results, creation dates, etc.)
+- Pro feature purchase status (maintained locally on the device)
+
+## 2. Data Collection and Transmission
+
+- The App does not transmit the above information to the developer's servers.
+- The App does not use advertising SDKs, analytics SDKs, or tracking SDKs.
+- The App does not sell or share user information with third parties.
+
+## 3. Purpose of Permissions
+
+- Photo Library permission: To allow users to select photos for use in the game
+- Camera permission: To provide the photo capture feature (when the relevant feature is enabled)
+
+## 4. Storage and Deletion
+
+- Images, settings, and history are stored within the app's local storage area on the device.
+- Saved photos can be individually or entirely deleted through operations within the App.
+- Deleting the App from the device will also delete all data stored locally by the App.
+
+## 5. External Services
+
+The App uses Apple's services:
+
+- App Store / StoreKit (purchase processing and purchase restoration)
+
+For information on data handled by Apple, please refer to [Apple's Privacy Policy](https://www.apple.com/privacy/).
+
+## 6. Use by Minors
+
+If required by applicable laws, please obtain parental consent before using this App.
+
+## 7. Revisions
+
+This policy may be revised in response to feature additions or changes in applicable laws. In case of significant changes, notice will be provided within the App or on the distribution page.
+
+## 8. Contact
+
+For privacy-related inquiries:
+
+- Contact form: [Please contact us here](https://docs.google.com/forms/d/e/1FAIpQLScT4fYb2UhmXt7WD2F0MK_YHx2v6rhw72zOe-sh5ZiyOYHZNg/viewform)
+
+</div>

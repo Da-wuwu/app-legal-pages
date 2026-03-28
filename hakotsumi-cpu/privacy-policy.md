@@ -1,15 +1,15 @@
 ---
 layout: page
-title: ハコツミ プライバシーポリシー / Hakotsumi Privacy Policy
+title: ハコツミCPU プライバシーポリシー / HakotsumiCPU Privacy Policy
 ---
 
 {% include lang-toggle.html %}
 
 <div class="lang-ja" markdown="1">
 
-最終更新日: 2026-03-23
+最終更新日: 2026-03-28
 
-ハコツミ（以下「本アプリ」）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めます。本ポリシーは、本アプリにおける情報の取り扱いを説明するものです。
+ハコツミCPU（以下「本アプリ」）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めます。本ポリシーは、本アプリにおける情報の取り扱いを説明するものです。
 
 ## 1. 取り扱う情報
 
@@ -17,7 +17,6 @@ title: ハコツミ プライバシーポリシー / Hakotsumi Privacy Policy
 
 - ゲーム設定（端末内のUserDefaultsに保存）
 - 対戦履歴・シリーズ結果（端末内に保存）
-- Pro機能の購入状態（端末内の状態保持）
 
 ## 2. 収集・外部送信について
 
@@ -34,23 +33,15 @@ title: ハコツミ プライバシーポリシー / Hakotsumi Privacy Policy
 - ゲーム設定・履歴は、端末内のアプリ領域に保存されます。
 - アプリを端末から削除すると、端末内に保存された本アプリのデータは削除されます。
 
-## 5. 外部サービス
-
-本アプリは、Appleの仕組みを利用します。
-
-- App Store / StoreKit（課金処理・購入復元）
-
-Appleが取り扱う情報については、[Appleのプライバシーポリシー](https://www.apple.com/jp/privacy/)をご確認ください。
-
-## 6. 未成年の利用
+## 5. 未成年の利用
 
 本アプリは、法令に基づき必要な場合、保護者の同意を得たうえで利用してください。
 
-## 7. 改定
+## 6. 改定
 
 本ポリシーは、機能追加や法令変更に応じて改定することがあります。重要な変更がある場合は、アプリ内または配布ページでお知らせします。
 
-## 8. お問い合わせ
+## 7. お問い合わせ
 
 プライバシーに関するお問い合わせ先:
 
@@ -60,9 +51,9 @@ Appleが取り扱う情報については、[Appleのプライバシーポリシ
 
 <div class="lang-en" markdown="1">
 
-Last updated: March 23, 2026
+Last updated: March 28, 2026
 
-Hakotsumi (hereinafter "the App") respects user privacy and is committed to protecting personal information. This policy explains how information is handled in the App.
+HakotsumiCPU (hereinafter "the App") respects user privacy and is committed to protecting personal information. This policy explains how information is handled in the App.
 
 ## 1. Information Handled
 
@@ -70,7 +61,6 @@ The App handles the following information locally on the device:
 
 - Game settings (stored in UserDefaults on the device)
 - Match history and series results (stored on the device)
-- Pro feature purchase status (maintained locally on the device)
 
 ## 2. Data Collection and Transmission
 
@@ -87,23 +77,15 @@ The App does not request access to the camera, photo library, location, or other
 - Game settings and history are stored within the app's local storage area on the device.
 - Deleting the App from the device will also delete all data stored locally by the App.
 
-## 5. External Services
-
-The App uses Apple's services:
-
-- App Store / StoreKit (purchase processing and purchase restoration)
-
-For information on data handled by Apple, please refer to [Apple's Privacy Policy](https://www.apple.com/privacy/).
-
-## 6. Use by Minors
+## 5. Use by Minors
 
 If required by applicable laws, please obtain parental consent before using this App.
 
-## 7. Revisions
+## 6. Revisions
 
 This policy may be revised in response to feature additions or changes in applicable laws. In case of significant changes, notice will be provided within the App or on the distribution page.
 
-## 8. Contact
+## 7. Contact
 
 For privacy-related inquiries:
 
