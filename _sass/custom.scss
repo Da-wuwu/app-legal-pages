@@ -96,6 +96,13 @@ body {
 }
 
 // ────────────────────────────────────────
+// Language toggle — default visibility
+// ────────────────────────────────────────
+.lang-en {
+  display: none;
+}
+
+// ────────────────────────────────────────
 // Last updated badge
 // ────────────────────────────────────────
 .post-content > .lang-ja > p:first-child,
@@ -190,7 +197,7 @@ body {
 }
 
 // ────────────────────────────────────────
-// Language toggle (overrides inline styles)
+// Language toggle styling
 // ────────────────────────────────────────
 .lang-toggle-wrapper {
   display: flex;
@@ -200,33 +207,33 @@ body {
 
 .lang-toggle {
   display: inline-flex;
-  border: 1px solid $color-border !important;
-  border-radius: 20px !important;
+  border: 1px solid $color-border;
+  border-radius: 20px;
   overflow: hidden;
   background: $color-bg;
 }
 
 .lang-toggle button {
-  padding: 5px 18px !important;
-  border: none !important;
-  background: transparent !important;
+  padding: 5px 18px;
+  border: none;
+  background: transparent;
   cursor: pointer;
-  font-size: 0.82rem !important;
-  color: $color-text-sub !important;
+  font-size: 0.82rem;
+  color: $color-text-sub;
   font-weight: 500;
-  transition: all 0.2s !important;
-  border-radius: 20px !important;
-  margin: 2px !important;
+  transition: all 0.2s;
+  border-radius: 20px;
+  margin: 2px;
 }
 
 .lang-toggle button.active {
-  background: $color-accent !important;
-  color: #fff !important;
+  background: $color-accent;
+  color: #fff;
   box-shadow: 0 1px 3px rgba(58, 123, 213, 0.25);
 }
 
 .lang-toggle button:not(:last-child) {
-  border-right: none !important;
+  border-right: none;
 }
 
 // ────────────────────────────────────────
