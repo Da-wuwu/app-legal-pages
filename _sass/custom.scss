@@ -1,0 +1,316 @@
+// ────────────────────────────────────────
+// Color tokens
+// ────────────────────────────────────────
+$color-bg:        #f7f8fa;
+$color-surface:   #ffffff;
+$color-border:    #e2e5ea;
+$color-text:      #2c3e50;
+$color-text-sub:  #6b7c8d;
+$color-heading:   #1a2533;
+$color-accent:    #3a7bd5;
+$color-accent-bg: #eef4fc;
+$shadow-card:     0 1px 4px rgba(0, 0, 0, 0.06), 0 2px 12px rgba(0, 0, 0, 0.04);
+
+// ────────────────────────────────────────
+// Base & body
+// ────────────────────────────────────────
+body {
+  background-color: $color-bg;
+  color: $color-text;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN",
+    "Noto Sans JP", "Segoe UI", Roboto, sans-serif;
+  line-height: 1.85;
+  -webkit-font-smoothing: antialiased;
+}
+
+// ────────────────────────────────────────
+// Site header override
+// ────────────────────────────────────────
+.site-header {
+  border-top: 3px solid $color-accent;
+  border-bottom: 1px solid $color-border;
+  background: $color-surface;
+}
+
+.site-title {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+
+  &,
+  &:visited {
+    color: $color-heading;
+  }
+}
+
+// ────────────────────────────────────────
+// Site footer override
+// ────────────────────────────────────────
+.site-footer {
+  border-top: 1px solid $color-border;
+  background: $color-surface;
+  color: $color-text-sub;
+  font-size: 0.85rem;
+}
+
+// ────────────────────────────────────────
+// Content wrapper — narrower for readability
+// ────────────────────────────────────────
+.wrapper {
+  max-width: 720px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+// ────────────────────────────────────────
+// Page content card
+// ────────────────────────────────────────
+.page-content {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.post-content,
+.home {
+  background: $color-surface;
+  border: 1px solid $color-border;
+  border-radius: 10px;
+  box-shadow: $shadow-card;
+  padding: 40px 44px 48px;
+  margin-top: 8px;
+
+  @media (max-width: 600px) {
+    padding: 28px 20px 32px;
+    border-radius: 8px;
+  }
+}
+
+// ────────────────────────────────────────
+// Page title
+// ────────────────────────────────────────
+.post-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: $color-heading;
+  letter-spacing: 0.01em;
+  margin-bottom: 4px;
+}
+
+// ────────────────────────────────────────
+// Last updated badge
+// ────────────────────────────────────────
+.post-content > .lang-ja > p:first-child,
+.post-content > .lang-en > p:first-child {
+  display: inline-block;
+  font-size: 0.82rem;
+  color: $color-text-sub;
+  background: $color-bg;
+  border: 1px solid $color-border;
+  border-radius: 20px;
+  padding: 3px 14px;
+  margin-bottom: 24px;
+}
+
+// ────────────────────────────────────────
+// Headings inside content
+// ────────────────────────────────────────
+.post-content {
+  h2 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: $color-heading;
+    margin-top: 36px;
+    margin-bottom: 12px;
+    padding-top: 24px;
+    border-top: 1px solid $color-border;
+
+    &:first-of-type {
+      border-top: none;
+      padding-top: 0;
+    }
+  }
+
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: $color-heading;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+}
+
+// ────────────────────────────────────────
+// Paragraphs
+// ────────────────────────────────────────
+.post-content p {
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+
+// ────────────────────────────────────────
+// Lists
+// ────────────────────────────────────────
+.post-content {
+  ul, ol {
+    margin-bottom: 16px;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  li {
+    position: relative;
+    padding-left: 22px;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 2px;
+      top: 10px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: $color-accent;
+    }
+  }
+}
+
+// ────────────────────────────────────────
+// Links
+// ────────────────────────────────────────
+.post-content a {
+  color: $color-accent;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+
+  &:hover {
+    border-bottom-color: $color-accent;
+  }
+}
+
+// ────────────────────────────────────────
+// Language toggle (overrides inline styles)
+// ────────────────────────────────────────
+.lang-toggle-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.lang-toggle {
+  display: inline-flex;
+  border: 1px solid $color-border !important;
+  border-radius: 20px !important;
+  overflow: hidden;
+  background: $color-bg;
+}
+
+.lang-toggle button {
+  padding: 5px 18px !important;
+  border: none !important;
+  background: transparent !important;
+  cursor: pointer;
+  font-size: 0.82rem !important;
+  color: $color-text-sub !important;
+  font-weight: 500;
+  transition: all 0.2s !important;
+  border-radius: 20px !important;
+  margin: 2px !important;
+}
+
+.lang-toggle button.active {
+  background: $color-accent !important;
+  color: #fff !important;
+  box-shadow: 0 1px 3px rgba(58, 123, 213, 0.25);
+}
+
+.lang-toggle button:not(:last-child) {
+  border-right: none !important;
+}
+
+// ────────────────────────────────────────
+// Home / index page — app cards
+// ────────────────────────────────────────
+.app-card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-top: 28px;
+}
+
+.app-card {
+  background: $color-bg;
+  border: 1px solid $color-border;
+  border-radius: 10px;
+  padding: 24px 28px;
+  transition: box-shadow 0.2s, border-color 0.2s;
+
+  &:hover {
+    border-color: darken($color-border, 8%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  @media (max-width: 600px) {
+    padding: 20px;
+  }
+}
+
+.app-card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: $color-heading;
+  margin: 0 0 14px;
+}
+
+.app-card-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.app-card-links li {
+  margin: 0;
+  padding: 0;
+
+  &::before {
+    display: none;
+  }
+}
+
+.app-card-links a {
+  display: inline-block;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: $color-accent;
+  background: $color-accent-bg;
+  padding: 6px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s;
+
+  &:hover {
+    background: darken($color-accent-bg, 4%);
+  }
+}
+
+// ────────────────────────────────────────
+// Home page heading
+// ────────────────────────────────────────
+.home {
+  h1 {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: $color-heading;
+    margin-bottom: 4px;
+  }
+
+  .home-description {
+    font-size: 0.9rem;
+    color: $color-text-sub;
+    margin-bottom: 0;
+  }
+}

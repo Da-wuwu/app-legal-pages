@@ -4,18 +4,35 @@ title: Legal Documents
 ---
 
 # アプリ法務ドキュメント
+{: .home-title}
 
-## Omoide
+各アプリのプライバシーポリシーと利用規約をご確認いただけます。
+{: .home-description}
 
-- [プライバシーポリシー](omoide/privacy-policy)
-- [利用規約](omoide/terms-of-use)
+<div class="app-card-grid">
 
-## ハコツミ (Hakotsumi)
+<div class="app-card">
+<h2 class="app-card-title">Omoide</h2>
+<ul class="app-card-links">
+<li><a href="omoide/privacy-policy">プライバシーポリシー</a></li>
+<li><a href="omoide/terms-of-use">利用規約</a></li>
+</ul>
+</div>
 
-- [プライバシーポリシー](hakotsumi/privacy-policy)
-- [利用規約](hakotsumi/terms-of-use)
+<div class="app-card">
+<h2 class="app-card-title">ハコツミ (Hakotsumi)</h2>
+<ul class="app-card-links">
+<li><a href="hakotsumi/privacy-policy">プライバシーポリシー</a></li>
+<li><a href="hakotsumi/terms-of-use">利用規約</a></li>
+</ul>
+</div>
 
-## ハコツミCPU (HakotsumiCPU)
+<div class="app-card">
+<h2 class="app-card-title">ハコツミCPU (HakotsumiCPU)</h2>
+<ul class="app-card-links">
+<li><a href="hakotsumi-cpu/privacy-policy">プライバシーポリシー</a></li>
+<li><a href="hakotsumi-cpu/terms-of-use">利用規約</a></li>
+</ul>
+</div>
 
-- [プライバシーポリシー](hakotsumi-cpu/privacy-policy)
-- [利用規約](hakotsumi-cpu/terms-of-use)
+</div>
